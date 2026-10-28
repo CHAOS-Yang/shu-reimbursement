@@ -1,0 +1,25 @@
+# 环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# 报销工作区的运行产物（本项目只需源码与文档）
+~$*
+*.bak
+*.bak_*
+*.tmp
+
+# 生成的 PDF 与核验产物
+PDF核验/
+*.pdf
+
+# 真实的报销资料，永远不要提交
+提交包/
+截图暂存/
+存档/
+*.jpg
+*.jpeg
+*.png
+!examples/**/*.png
